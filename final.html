@@ -1,0 +1,84 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+38093@DESKTOP-1KI1RG7 MINGW64 ~/Test-1 (main)
+$ git branch
+* main
+  new-branch
+
+38093@DESKTOP-1KI1RG7 MINGW64 ~/Test-1 (main)
+$ git log
+commit 0212addfd50c47961cd624639c829f59e5f7f8a4 (HEAD -> main, origin/main, origin/HEAD)
+Author: folvox <129596521+folvox@users.noreply.github.com>
+Date:   Sat May 13 17:23:56 2023 +0300
+
+    Create text
+
+commit 1852f77d95f5c060b1f98e69ca297f67ab73772c
+Merge: c6c6730 c96d019
+Author: folvox <sashabazeliuk2004@gmail.com>
+Date:   Sat May 13 17:21:46 2023 +0300
+
+    Вирішення конфлікту
+
+commit c6c6730654de0ebf4ea9df0f0fbf834e706df54b
+Author: folvox <sashabazeliuk2004@gmail.com>
+Date:   Sat May 13 17:19:32 2023 +0300
+
+    Теж вніс зміни
+
+commit c96d019a9b90aaa6bee2c0bafe52ad333bdf107d (new-branch)
+Author: folvox <sashabazeliuk2004@gmail.com>
+Date:   Sat May 13 17:17:04 2023 +0300
+
+    Changes
+
+commit 97a4a189fde27ac1bd8044f52f956fa1101a8c5f (origin/new-branch)
+Author: folvox <sashabazeliuk2004@gmail.com>
+Date:   Sat May 13 17:09:34 2023 +0300
+
+    Зміни на гілці мейн
+
+commit 3ca767ba5cea2f24c5262c649ee173b680a871f9
+Author: folvox <sashabazeliuk2004@gmail.com>
+Date:   Sat May 13 17:01:29 2023 +0300
+
+    Додав рядок
+
+commit e0337b429a777c3117e93ac493e867c4b3d413d3
+Author: folvox <sashabazeliuk2004@gmail.com>
+Date:   Sat May 13 17:00:08 2023 +0300
+
+    Додав свій вік
+
+commit a50f1da62ff70987703305ffabd2d56ceb171506
+Author: folvox <sashabazeliuk2004@gmail.com>
+Date:   Sat May 13 16:58:45 2023 +0300
+
+    Вніс зміний на новий гілці
+
+commit b177bbf4ee07916b40d1d3cb10461693d0ec246a
+Author: folvox <sashabazeliuk2004@gmail.com>
+Date:   Sat May 13 16:33:02 2023 +0300
+
+    Створив файл
+
+commit f9b4e39891ac0bf6260eed51411bc1640c417419
+Author: folvox <129596521+folvox@users.noreply.github.com>
+Date:   Sat May 13 16:30:39 2023 +0300
+
+    Initial commit
+
+38093@DESKTOP-1KI1RG7 MINGW64 ~/Test-1 (main)
+$ git log --merges
+commit 1852f77d95f5c060b1f98e69ca297f67ab73772c
+Merge: c6c6730 c96d019
+Author: folvox <sashabazeliuk2004@gmail.com>
+Date:   Sat May 13 17:21:46 2023 +0300
+
+    Вирішення конфлікту
+
+
